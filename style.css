@@ -6,6 +6,7 @@ body{
     background-image: url(images/header-bg.png);
     height: 100vh;
     background-size: cover;
+    height: 500px;
   
 }
 h1{
@@ -18,7 +19,7 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 .half-width img{
     width: 100%;
@@ -37,3 +38,59 @@ h1{
 }
 
 /* Comlete first Part */
+.biography{
+    background-image: url(images/biography-bg.png);
+    height: 100vh;
+    background-size: cover;
+    height: 650px;
+}
+
+/* latest-work in profile */
+
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    height: 100vh;
+    background-size: cover;
+    height: 450px;
+   
+
+}
+
+.text-move{
+    text-align: center;
+    color: tomato;
+    font-size: 40px;
+    padding-left: 40%;
+    /* padding: 4%;
+    padding-top: 10% ; */
+    
+}
+.half-width-work{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+.half-width-work img{
+    width: 100%;
+}
+
+/* last part */
+.footer{
+    background-image: url(images/footer-bg.png);
+    height: 100vh;
+    background-size: cover;
+    height: 300px;
+   
+}
+.footer-div{
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+footer{
+    padding: 8%;
+}
